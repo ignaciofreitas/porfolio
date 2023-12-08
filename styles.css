@@ -35,6 +35,30 @@ body::-webkit-scrollbar-thumb {
     border: 8px solid #254d5f;
 }
 
+.languajes{
+    color: red;
+    position: absolute;
+    right: 0;
+    margin-top: 40px;
+    margin-right: 20px;
+    width: 120px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.languajes img{
+    width: 40px;
+    height: 30px;
+}
+
+.languajes img:nth-child(1){
+    width: 40px;
+    height: 30px;
+    padding: 3px;
+}
+
 .navbar {
     background-color: none;
     position: fixed;
